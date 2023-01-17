@@ -1,0 +1,12 @@
+.img {
+    display: flex;
+    justify-content: center;
+    .img-n-1 > .img-n-2 {
+        width: 450px;
+        height: 350px;
+    } 
+    .img-d-1-zona {
+        width: 550px;
+        height: 350px;
+    }
+}

@@ -1,0 +1,21 @@
+.tbl-u{
+    display: block;
+    justify-content: center;
+    .tbl-ubi-{
+        border: solid;
+        border-style: double;
+        tr > th > td{
+            border: solid;
+            border-style: dashed;
+        }
+    }
+}
+.form{
+    display: block;
+    justify-content: center;
+    padding-top: 30px;
+    .form-dis-{
+        border: solid;
+        border-style: double;
+    }
+}

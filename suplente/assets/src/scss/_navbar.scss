@@ -1,0 +1,48 @@
+.navbar{
+    display: block;
+    display: flex;
+    justify-content: center;
+    ul{
+        list-style-type: none;
+        display: flex;
+    >li >a{
+        display: block;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        color: black;
+    }
+    }
+    .fa-bars {
+        display: none;
+        @media (max-width:640px) {
+            .navbar {
+                justify-content: start;
+            }
+            .fa-bars {
+                display: block;
+                color: black;
+                font-size: 30px;
+                padding: 20px;
+                &:hover + ul {
+                    left: 0px;
+                    ul {
+                        position: fixed;
+                        display: flex;
+                        flex-direction: column;
+                        width: 250px;
+                        height: 100vh;
+                        justify-content: start;
+                        padding-top: 60px;
+                        align-items: center;
+                        left: -400px;
+                        transition: 0.2s;
+                        &:hover {
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

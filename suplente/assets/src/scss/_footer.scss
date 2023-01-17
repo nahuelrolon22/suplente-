@@ -1,0 +1,15 @@
+.pie-pagina{
+    display: block;
+    display: flex;
+    justify-content: center;
+    ul{
+        list-style-type: none;
+        display: flex;
+        display: block;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        color: black;
+        padding-top: 45px;
+    }
+}

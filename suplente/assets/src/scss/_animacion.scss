@@ -1,0 +1,30 @@
+.loaging{
+    @keyframes rotar{
+        0%{
+            transform: rotateZ(0deg);
+        }
+        100%{
+            transform: rotateZ(360deg);
+        }
+    }
+}
+.imgPROD {
+    transition: 0.8s;
+    &:hover {
+        transform: scale(2);
+    }
+}
+
+.redes {
+    width: 150px;
+    height: 150px;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    transition: 0.8s;
+    &:hover {
+    transform: scale(2);
+}
+}

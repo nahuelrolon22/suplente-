@@ -1,0 +1,18 @@
+.texto {
+    display: flex;
+    justify-content: center;
+    .titulo {
+        display: flex;
+        justify-content: center;
+    }
+    .subtitulo {
+        display: flex;
+        justify-content: center;
+        font-size: large;
+    }
+    .texto-n-1 > .texto-u-1 > .texto-dis- > .texto-d-1 > {
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.todo {
+    background-image: linear-gradient(to top, #ec7f00, #ed8c27, #ee993f, #eea555, #efb16b, #f9b685, #febe9e, #ffc7b6, #ffd3d5, #fee2ee, #fbf1fb, #ffffff);
+}
+.loaging{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.281);
+    z-index: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i{
+        color: white;
+        font-size: 64px;
+        animation-name: rotar;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+    }
+}
